@@ -1,5 +1,5 @@
 
-# ${1:Project Name}
+# Analysis & Reduction code used in Tremblay et al. 2016, Nature
 TODO: Write a project description
 ## Installation
 TODO: Describe the installation process
