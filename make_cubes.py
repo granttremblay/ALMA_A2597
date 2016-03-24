@@ -12,7 +12,7 @@ weight = 'natural' # if you use Briggs, you need to also specify a robust factor
 robust_for_briggs = 2.0 # needed if using Briggs
 sigmacut =3.0 # Sigma level above RMS noise / threshold for CLEAN
 taper = True # Tapering decreases resolution and increases sensitivity to extended structures
-primary_beam_correction = False # PBcorr? 
+primary_beam_correction = True # PBcorr? 
 
 
 run_name = 'unique_run_name'
@@ -91,8 +91,9 @@ exportfits( imagename = str(velres) + 'kms_' + weight + '_' + str(sigmacut) + 's
 
 final_cube_name = str(velres) + 'kms_' + weight + '_' + str(sigmacut) + 'sigma' + make_name_unique + '.fits'
 
-print "Made the following cube:"
-print final_cube_name
 
-print "You should copy this to /home/grant/Science/Projects/almaA2597/Maps"
-print "for further analysis!"
+print "Made the following maps:"
+print final_cube_name + " (the full data cube)"
+print final_cube_name[:-5] + "_IntensityMap.fits"
+print final_cube_name[:-5] + "_VelocityMap.fits"
+print final_cube_name[:-5] + "_VelocityDispersion.fits"
