@@ -1,6 +1,6 @@
 
-# Analysis & Reduction code used 
-# Tremblay et al. 2016, Nature
+# Analysis & Reduction Code  
+## Tremblay et al. 2016, Nature
 TODO: Write a project description
 ## Installation
 TODO: Describe the installation process
