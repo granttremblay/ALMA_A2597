@@ -1,7 +1,6 @@
 [![DOI](https://zenodo.org/badge/52158810.svg)](https://zenodo.org/badge/latestdoi/52158810)
 
-
-## Scripts used in Tremblay et al. 16, Nature, 534, 218
+## Scripts used in Tremblay et al. 2016, Nature, 534, 218
 
 This repository contains scripts used in the reduction and subsequent analysis of the [ALMA] data used in [Tremblay et al. 2016, *Nature*, 534, 218](https://ui.adsabs.harvard.edu/?#abs/2016Natur.534..218T). These scripts must be run with [CASA] version 4.1, in order to ensure complete reproduction of the data cubes presented in this paper (although later versions of CASA will also work, absent this guarantee). 
 
